@@ -1,0 +1,16 @@
+.classroom{
+    
+        border: 2px solid;
+        width: 350px;
+        display: flex;
+        align-items:baseline ;
+        height: 400px;
+        
+        
+    
+    
+}
+.one{
+        background-color: blueviolet;
+        height: 200px;
+}

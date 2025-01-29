@@ -1,0 +1,54 @@
+.classroom{
+ border: 2px solid;
+ width: 300px;
+display: flex;
+flex-direction: row ;
+flex-wrap: wrap;
+align-items: flex-end;
+margin: 50px;
+padding: 10px;
+
+}
+
+
+
+
+.one{
+    background-color: blue;
+    margin: 5px;
+align-self: flex-end;
+}
+   
+
+
+
+
+
+.two{
+    background-color: blueviolet;
+height: 200px;
+margin: 5px;}
+    
+
+
+
+
+
+.three{
+    background-color: hotpink;
+    margin: 5px;
+    height: 200px;
+}
+    
+
+
+
+
+.four{
+    background-color: orange;
+    margin: 5px;
+    
+    align-self: flex-end;
+}
+   
+

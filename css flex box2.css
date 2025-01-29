@@ -1,0 +1,17 @@
+.classroom{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+.classroom2{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-flow: column wrap;
+}

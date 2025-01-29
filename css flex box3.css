@@ -1,0 +1,8 @@
+.classroom{
+    border: 2px solid;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}

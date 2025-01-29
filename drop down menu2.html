@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"> 
+    <title>drop down</title>
+    <style media="screen">
+      
+  *{
+    margin: 0;
+padding: 0;
+  }
+  .nav ul li{
+
+          
+    list-style-type:none ;
+           float: left;
+           width: 120px;
+   height:30px ;
+   line-height: 30px;
+ background-color: rgba(0, 0, 0,0.8);
+ color: white;
+
+  }
+  .nav ul li:hover{
+    background-color: orange;
+   color: black;
+  }
+  .nav ul li ul{
+    display: none;
+  }
+  .nav ul li:hover > ul{
+    display: block;
+  }
+  .nav ul li ul li{
+    display: inline-block;
+    position: relative;
+  }
+  .nav ul li ul li ul {
+    
+    position: absolute;
+    left: 120px;
+    top: 0;
+  }
+ 
+
+
+
+  
+
+  
+    </style>
+  </head>
+  
+  <body> 
+     <div class="nav">Brands
+    <ul>
+       <li>apple
+                     <ul>
+                              <li>mobiles</li>
+                                  <li>tablet</li>
+                                 <li>laptop</li>
+                                          
+                     </ul>
+
+                    </li>      
+
+
+
+       <li>samsung
+                             <ul>
+                                       <li>mobiles</li>
+                                       <li>tablet</li>
+                                       <li>Appliances</li>
+             
+
+
+
+
+                            </ul>
+                        </li>
+       <li>sony
+                           <ul>
+                                   <li>music system</li>
+                                 <li>monile</li>
+                                  <li>camera</li>
+                                  <li>appliances
+                                  <ul>
+                                    <li>microwave</li>
+                                    <li>led Tv</li>
+                                    <li>AC</li>
+                                </li>
+                                  </ul>
+
+                                           
+                                </li>
+
+
+
+                           </ul>
+
+    </ul>
+
+</div>
+
+  </body>
+</html>
+    

@@ -1,0 +1,56 @@
+*{
+    padding:0 ;
+    margin:0 ;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100% ;
+    height: 100vh;
+    background-image:url(website\ 2.jpg) ;
+background-position: center;
+}
+
+.point{
+    width:85% ;
+    padding: 35px 0;
+    margin:auto ;
+    display: flex;
+    align-items: center ;
+    justify-content:space-between ;
+
+
+
+
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.point ul li{
+list-style: none;
+display:inline-block ;
+margin:0 20px ;
+position: relative;
+
+}
+.point ul li a{
+
+text-decoration:none;
+color: #fff;
+text-transform:uppercase ;
+
+
+
+
+
+}
+.point ul li: ::after:{
+    content: '';
+    height: 3px ;
+    width: 100% ;
+    background: #009688 ;
+    position:absolute;
+    left: 0 ;
+    bottom: -10px ;
+    
+}

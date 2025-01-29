@@ -1,0 +1,4 @@
+.classroom{
+    display: flex ;
+   flex-direction: column;
+}
